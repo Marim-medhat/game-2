@@ -15,7 +15,9 @@ while x==5:
         for i in range (len(list)):
             if list[i]==p:
                 list[i]=n
-        print(list)
+        print("|",list[0],"|",list[1],"|",list[2],"|")
+        print("|",list[3],"|",list[4],"|",list[5],"|")
+        print("|",list[6],"|",list[7],"|",list[8],"|")
     else:
         print('error,try again')
         n=int(input('num'))
@@ -26,7 +28,9 @@ while x==5:
         for i in range (len(list)):
            if list[i]==p:
                list[i]=n
-        print (list)
+        print("|",list[0],"|",list[1],"|",list[2],"|")
+        print("|",list[3],"|",list[4],"|",list[5],"|")
+        print("|",list[6],"|",list[7],"|",list[8],"|")
     if list[0]+list[1]+list[2]==15 or list[8]+list[0]+list[4]==15 or list[3]+list[4]+list[5]==15 or list[6]+list[7]+list[8]==15 or list[6]+list[2]+list[4]==15 or list[1]+list[7]+list[4]==15 or list[6]+list[3]+list[0]==15 or list[2]+list[5]+list[8]==15:
            print("you win")
            break
@@ -41,7 +45,9 @@ while x==5:
         for i in range (len(list)):
              if list[i]==p:
                 list[i]=n
-        print (list)
+        print("|",list[0],"|",list[1],"|",list[2],"|")
+        print("|",list[3],"|",list[4],"|",list[5],"|")
+        print("|",list[6],"|",list[7],"|",list[8],"|")
     else:
         print('error,try again')
         n=int(input('num'))
@@ -52,7 +58,9 @@ while x==5:
         for i in range (len(list)):
             if list[i]==p:
                 list[i]=n
-        print (list)
+        print("|",list[0],"|",list[1],"|",list[2],"|")
+        print("|",list[3],"|",list[4],"|",list[5],"|")
+        print("|",list[6],"|",list[7],"|",list[8],"|")
     if list[0]+list[1]+list[2]==15 or list[8]+list[0]+list[4]==15 or list[3]+list[4]+list[5]==15 or list[6]+list[7]+list[8]==15 or list[6]+list[2]+list[4]==15 or list[1]+list[7]+list[4]==15 or list[6]+list[3]+list[0]==15 or list[2]+list[5]+list[8]==15:
             print("you win")
             break
